@@ -7,13 +7,13 @@ public class Main {
                 "+1(30)289-03-64", "+1(57)402-60-29",
                 "+1(159)887-00-00", "+1(2983)475-94-43}"};
 
-        Asus asus = new Asus();
-        Nokia nokia = new Nokia();
-        Samsung samsung = new Samsung();
+        ButtonPhone buttonPhone = new ButtonPhone();
+        RadioPhone radioPhone = new RadioPhone();
+        MobilePhone mobilePhone = new MobilePhone();
 
-        makeCall(asus, number[0]);
-        receiveCall(samsung, number[6]);
-        makeCall(nokia, number[9]);
+        makeCall(buttonPhone, number[0]);
+        receiveCall(mobilePhone, number[6]);
+        makeCall(radioPhone, number[9]);
     }
 
     public static void makeCall(Phone phone, String number) {

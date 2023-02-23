@@ -1,6 +1,6 @@
-public class Samsung extends Phone {
+public class RadioPhone extends Phone{
 
-    String phoneName = "Galaxy A73 5G 6 ";
+    String phoneName = "Phillips ";
 
     @Override
     public void call(String number) {

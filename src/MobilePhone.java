@@ -1,6 +1,6 @@
-public class Asus extends Phone{
+public class MobilePhone extends Phone {
 
-    String phoneName = "Asus ROG Phone 6 ";
+    String phoneName = "Samsung ";
 
     @Override
     public void call(String number) {

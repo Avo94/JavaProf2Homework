@@ -1,6 +1,6 @@
-public class Nokia extends Phone{
+public class ButtonPhone extends Phone{
 
-    String phoneName = "Nokia X30 ";
+    String phoneName = "Siemens ";
 
     @Override
     public void call(String number) {
