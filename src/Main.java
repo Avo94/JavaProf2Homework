@@ -5,11 +5,11 @@ public class Main {
                 "+1(6008)761-58-18", "+1(7508)496-98-18",
                 "+1(639)358-33-10", "+1(35)537-38-81",
                 "+1(30)289-03-64", "+1(57)402-60-29",
-                "+1(159)887-00-00", "+1(2983)475-94-43}"};
+                "+1(159)887-00-00", "+1(2983)475-94-43"};
 
-        ButtonPhone buttonPhone = new ButtonPhone();
-        RadioPhone radioPhone = new RadioPhone();
-        MobilePhone mobilePhone = new MobilePhone();
+        ButtonPhone buttonPhone = new ButtonPhone("Siemens");
+        RadioPhone radioPhone = new RadioPhone("Phillips");
+        MobilePhone mobilePhone = new MobilePhone("Samsung");
 
         makeCall(buttonPhone, number[0]);
         receiveCall(mobilePhone, number[6]);

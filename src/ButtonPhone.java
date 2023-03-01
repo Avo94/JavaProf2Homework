@@ -1,14 +1,16 @@
 public class ButtonPhone extends Phone{
 
-    String phoneName = "Siemens ";
+    public ButtonPhone(String phoneName) {
+        super.phoneName = phoneName;
+    }
 
     @Override
     public void call(String number) {
-        System.out.println("Phone " + phoneName + "call to " + number);
+        System.out.println("Phone " + phoneName + " call to " + number);
     }
 
     @Override
     public void receiveCall(String number) {
-        System.out.println("Phone " + phoneName + "receive call from " + number);
+        System.out.println("Phone " + phoneName + " receive call from " + number);
     }
 }
